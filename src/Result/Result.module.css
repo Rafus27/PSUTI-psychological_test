@@ -1,0 +1,107 @@
+canvas {
+    z-index: 10;
+    position: relative;
+}
+
+.chartContainerOuter {
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.chartContainer {
+    width: 200px;
+
+    transform: rotate(90deg);
+}
+
+.chartResult {
+    min-width: 960px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.personCharact {
+    height: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.personCharactContainer {
+    height: 400px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personContainer {
+    margin: 0 10px;
+}
+
+.com {
+    position: absolute;
+    z-index: 20;
+    bottom: 0px;
+    width: 120px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.count {
+    height: 5px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+
+.count p {
+    width: 0;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.result {
+    max-width: 1200px;
+}
+
+.counter {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.counterValue {
+    width: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterImg {
+    min-width: 10px;
+    min-height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}

@@ -1,0 +1,92 @@
+.container {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header {
+    margin: 10px 0 0;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.line {
+    border: solid 1px #0085FF;
+    width: 100%;
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 158px;
+    height: 145px;
+    margin-left: 20px;
+}
+
+.inputContainer{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn {
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.btn:active {
+    opacity: 0.8;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 660px) {
+    .inputContainer{
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .inputWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
